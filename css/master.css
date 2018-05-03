@@ -1,0 +1,78 @@
+@import "icons.css";
+
+body{
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 10;
+  align-items: center;
+}
+
+.logotipo{
+  color: white;
+  font-style: italic;
+  font-size: 34px;
+  display: inline-block;
+  margin: 20px 0;
+}
+.logotipo p{
+  margin: 0;
+}
+.icon-truck{
+  color: #32C7A7;
+}
+
+.menu{
+  float: right;
+  margin: 20px 10px;
+}
+.menu li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+}
+.menu .select-menu{
+  background: white;
+  color: #32C7A7;
+}
+
+.menu a:hover{
+  background: white;
+  color: #32C7A7;
+}
+
+.menu a{
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.icon-search{
+  background: white;
+  color: #777777;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.slide{
+  position: absolute;
+  top: 0;
+  width: 400%;
+  overflow: hidden;
+  display: flex;
+}
+
+.slide section{
+  width: 100%;
+}
+
+.slide img{
+  width: 100%;
+}

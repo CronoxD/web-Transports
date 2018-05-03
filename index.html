@@ -30,12 +30,58 @@
       </nav>
     </header>
 
-    <div class="slide">
-      <section><img src="images/barco.jpg" alt="Barco en el slide"></section>
-      <section><img src="images/camion.jpg" alt="Camion que ofrece el sitio"></section>
-      <section><img src="images/helicopter.jpg" alt="Helicoptero que ofrece el sitio"></section>
-      <section><img src="images/tren.jpg" alt="Tren que ofrece el sitio"></section>
+    <div id="transCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#transCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#transCarousel" data-slide-to="1"></li>
+        <li data-target="#transCarousel" data-slide-to="2"></li>
+        <li data-target="#transCarousel" data-slide-to="3"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/barco.jpg" alt="Barco en el slide">
+          <div class="carousel-cap">
+            <h3>Transport your goods</h3>
+            <h1>Around the world</h1>
+            <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/camion.jpg" alt="Camion que ofrece el sitio">
+          <div class="carousel-cap">
+            <h3>With help from our fleet</h3>
+            <h1>Send it anywhere</h1>
+            <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/helicopter.jpg" alt="Helicoptero que ofrece el sitio">
+          <div class="carousel-cap">
+            <h3>Transport your goods</h3>
+            <h1>Around the world</h1>
+            <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/tren.jpg" alt="Tren que ofrece el sitio">
+          <div class="carousel-cap">
+            <h3>With help from our fleet</h3>
+            <h1>Send it anywhere</h1>
+            <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#transCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#transCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
     </div>
   </body>
-
 </html>

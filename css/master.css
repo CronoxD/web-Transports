@@ -34,6 +34,18 @@ body{
   color: #32C7A7;
 }
 
+.icon-menu{
+  display: none;
+  float: right;
+  margin-right: 30px;
+  margin-top: 5px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  padding: 2px 5px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
 .menu{
   float: right;
   margin: 20px 10px;
@@ -92,8 +104,13 @@ body{
 
 .carousel-inner{
   overflow: hidden;
-  max-height: 700px;
+  max-height: 600px;
+  /* min-height: 500px; */
 }
+
+/* .carousel-indicators{
+  top: 70%;
+} */
 
 .carousel-inner img{
   height: 100%;
@@ -105,7 +122,7 @@ body{
   box-shadow: 0 0 10px black;
   background: rgba(0,0,0,0.3);
   width: 55%;
-  top: 180px;
+  top: 20%;
   left: 10%;
   z-index: 10;
   padding: 20px;
@@ -124,11 +141,11 @@ body{
 }
 
 .carousel-icons{
+  position: absolute;
   width: 100%;
-  top: 500px;
+  top: 400px;
   display: flex;
   justify-content: space-around;
-  position: absolute;
 
 }
 .carousel-icons p{
@@ -137,4 +154,30 @@ body{
   font-size: 20px;
   color: white;
   text-shadow: 2px 4px 1px #000;
+}
+
+@media screen and (max-width: 1170px) {
+  .carousel-capt {
+    width: 80%;
+    text-align: center;
+    /* top: 200px; */
+  }
+  .carousel-inner img{
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .icon-menu{
+    display: inline-block;
+
+  }
+  .menu{
+    /* float: none; */
+    display: none;
+  }
+  .carousel-capt{
+    top: 80px;
+  }
 }

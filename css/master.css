@@ -174,9 +174,47 @@ body{
 
   }
   .menu{
-    /* float: none; */
+    float: none;
+    display: none;
+    background: rgba(0,0,0,0.7);
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .menu ul{
+    padding: 0;
+  }
+  .menu li, .menu a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .icon-cancel{
     display: none;
   }
+
+  .buscador{
+    display: inline-block !important;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+  }
+  .buscador input{
+    height: 100%;
+    width: 100%;
+  }
+  .container-search{
+    height: 44px;
+  }
+  .icon-search{
+    position: absolute;
+    right: 0;
+  }
+
   .carousel-capt{
     top: 80px;
   }

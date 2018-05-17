@@ -155,6 +155,17 @@ body{
   color: white;
   text-shadow: 2px 4px 1px #000;
 }
+.form-group {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("../images/map.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+.btn-primary{
+  margin: 40px 0;
+}
 
 .presentation {
   font-family: 'Raleway', sans-serif;
@@ -165,12 +176,22 @@ body{
   font-size: 15px;
   line-height: 29px;
 }
+.benefits-title{
+  color: #32C7A7;
+  margin: 35px 0 20px;
+}
 .benefits {
   color: #999999;
+  padding: 0;
 }
 
 .benefits li {
   list-style: none;
+  line-height: 29px;
+}
+
+.form-group label{
+  font-size: 20px;
 }
 
 .icon-ok{
@@ -180,7 +201,6 @@ body{
   .carousel-capt {
     width: 80%;
     text-align: center;
-    /* top: 200px; */
   }
   .carousel-inner img{
     width: auto;

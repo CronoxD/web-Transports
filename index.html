@@ -117,12 +117,12 @@
     <!--Web site Content -->
     <section class="container mt-5">
       <div class="row">
-        <article class="col-sm-7 presentation">
-          <h2 >WE ARE BEST IN THIS INDUSTRY FROM LAST 30 YEARS.</h2>
+        <article class="col-lg-7 presentation">
+          <h2>WE ARE BEST IN THIS INDUSTRY FROM LAST 30 YEARS.</h2>
           <div class="presentation text mt-4">
             Masagni dolores eoquie int Basmodi temporant, ut laboreas dolore magnam aliquam kuytase uaeraquis autem vel eum iure reprehend.Unicmquam eius, Basmodi temurer sehsMunim.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
           </div>
-          <h4 style="color: #32C7A7;">Our benefits</h4>
+          <h4 class="benefits-title">Our benefits</h4>
           <ul class="benefits">
             <li><span class="icon-ok"></span>Best Tracking system on every step</li>
             <li><span class="icon-ok"></span>Free Insurance for your goods</li>
@@ -131,19 +131,33 @@
             <li><span class="icon-ok"></span>Free Insurance for your goods</li>
           </ul>
         </article>
-        <form class="col-sm-5" action="index.html" method="post">
+        <form class="col-lg-5" action="index.html" method="post">
           <div class="form-group">
             <label for="iNeed">I need</label>
-            <input class="form-control" type="text" name="ineed" value="Choose value" id="iNeed">
+            <select class="form-control" name="ineed" id="iNeed">
+              <option value="invalid">Choose a value</option>
+              <option value="packaging">Packaging and Storage</option>
+              <option value="worldwide">Worldwide Transport</option>
+              <option value="cargo">Cargo</option>
+              <option value="warehousing">Warehousing</option>
+              <option value="door2door">Door to door delivery</option>
+            </select>
             <label for="commodity">Commodity</label>
-            <input class="form-control" type="text" name="commodity" value="commodity" id="commodity">
+            <select name="commodity" id="commodity" class="form-control">
+              <option value="invalid">Choose a value</option>
+              <option value="package">We can package and store your things</option>
+              <option value="transport">Let us transport your things from point A to point B fast and securely</option>
+              <option value="anywhere">We can transport your things anywhere in the world</option>
+              <option value="notch">We have top notch security and loads of space</option>
+              <option value="delivered">Do you need something delivery?</option>
+            </select>
             <label for="distance">Distance (Km)</label>
             <input class="form-control" type="text" name="distance" value="" id="distance">
             <label for="email">E-mail</label>
             <input class="form-control" type="email" name="email" value="" id="email">
             <label for="phone">Phone Number</label>
             <input class="form-control" type="tel" name="phone" value="" id="phone">
-            <input class="form-control" type="submit" name="" value="SUBMIT">
+            <input class="form-control btn btn-primary" type="submit" name="" value="SUBMIT">
           </div>
         </form>
       </div>

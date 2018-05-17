@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+  //Declaro constantes de jQuery
   const buscador = $('.buscador');
   const iconSearch = $('.icon-search');
   const iconCancel = $('.icon-cancel');
